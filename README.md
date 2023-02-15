@@ -1,6 +1,6 @@
 # Video-Downloader-Website
 A simple small project that allows you to downlaod youtube/facebook/instagram vidoes.
-Made with Flask Python.
+Made with Flask Python by Yll Berisha (Mady).
 
 <img>![image](https://user-images.githubusercontent.com/102769384/219012078-2ad02994-8ca0-4f1b-a804-747efa826075.png)</img> <br><br>
 
