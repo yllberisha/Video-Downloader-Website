@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Download facebook videos for free using Facebook Video Downloader">
+    <meta name="author" content="iCoder">
+    <title>Video Downloader</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/examples/cover/">
+    <!-- Bootstrap core CSS -->
+    <link href="{{ url_for('static', filename = '/css/bootstrap.min.css') }}" rel="stylesheet"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <meta name="theme-color" content="#563d7c">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+        .logo-container {
+            display:flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+            margin-top: -100px;
+}
+
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="{{ url_for('static', filename = '/cover.css') }}" rel="stylesheet">
+
+</head>
+
+<body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+            <div class="inner">
+                <h4 class="masthead-brand">Video Downloader</h4>
+                <nav class="nav nav-masthead justify-content-center">
+                    <a class="nav-link active" href="/">Home</a>
+                    <a class="nav-link" href="/yt">Youtube</a>
+                   
+                    <a class="nav-link" href="/fb">Facebook</a>
+                    <a class="nav-link" href="/about">About</a>
+                </nav>
+            </div>
+        </header>
+</head>
+    
+
+
+</head>
+<body>
+    <div>
+        <br><br><br>
+        <h1>Download Videos</h1>
+        <br><p>Please select the platform to download from:</p> 
+        </div>
+       
+	<div class="logo-container">
+		<a href="/fb" class="logo">
+			<img src="https://www.facebook.com/images/fb_icon_325x325.png" width="200" height="200">
+		</a>
+		<a href="/yt" class="logo" style="margin-left: 20px;">
+			<img src="https://www.freepnglogos.com/uploads/youtube-logo-icon-transparent---32.png" widht="300" height="200">
+		</a>
+		<a href="/error" class="logo">
+			<img src="https://www.freepnglogos.com/uploads/instagram-logos-png-images-free-download-2.png" width="200" height="200">
+		</a>
+	</div>
+</body>
+
+<footer class="mastfoot mt-auto">
+    <div class="inner">
+        <p>Video Downloader by Mady.</p>
+    </div>
+</footer>
+</html>
