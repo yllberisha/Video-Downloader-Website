@@ -1,9 +1,9 @@
 ## Install Required Libraries
 
-    pip install -r requirements.txt
+    pip3 install -r requirements.txt
 
 ## Start flask server
 
-    python app.py
+    python3 app.py
 Visit http://localhost in your browser.
 
